@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: home.task
+---
+testFramework: junit
+sourceLanguage: java

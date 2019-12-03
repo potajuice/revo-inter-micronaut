@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: home-task
+  server:
+    netty:
+      worker:
+        threads: 8
+  executors:
+      io:
+        type: fixed
+        nThreads: 8
